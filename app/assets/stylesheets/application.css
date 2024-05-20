@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ .letters-container {
+  display: inline-block;
+}
+
+.letters-container p {
+  display: inline;
+  margin: 0; /* Optional: to remove any default margins */
+}
